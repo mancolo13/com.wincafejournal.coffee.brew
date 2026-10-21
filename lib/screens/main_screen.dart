@@ -32,27 +32,26 @@ class _MainScreenState extends State<MainScreen> {
         backgroundColor: AppTheme.surfaceColor,
         indicatorColor: AppTheme.primaryColor.withValues(alpha: 0.2),
         destinations: [
-        NavigationDestination(
-          icon: const Icon(Icons.local_cafe_outlined),
-          selectedIcon: const Icon(Icons.local_cafe, color: AppTheme.primaryColor),
-          label: 'Brew',
-        ),
-        NavigationDestination(
-          icon: const Icon(Icons.timer_outlined),
-          selectedIcon: const Icon(Icons.timer, color: AppTheme.primaryColor),
-          label: 'Timer',
-        ),
-        NavigationDestination(
-          icon: const Icon(Icons.kitchen_outlined),
-          selectedIcon: const Icon(Icons.kitchen, color: AppTheme.primaryColor),
-          label: 'Beans',
-        ),
-        NavigationDestination(
-          icon: const Icon(Icons.rate_review_outlined),
-          selectedIcon: const Icon(Icons.rate_review, color: AppTheme.primaryColor),
-          label: 'Notes',
-        ),
-
+          NavigationDestination(
+            icon: const Icon(Icons.dashboard_outlined),
+            selectedIcon: const Icon(Icons.dashboard, color: AppTheme.primaryColor),
+            label: 'Timer',
+          ),
+          NavigationDestination(
+            icon: const Icon(Icons.list_alt_outlined),
+            selectedIcon: const Icon(Icons.list_alt, color: AppTheme.primaryColor),
+            label: 'Cupping',
+          ),
+          NavigationDestination(
+            icon: const Icon(Icons.analytics_outlined),
+            selectedIcon: const Icon(Icons.analytics, color: AppTheme.primaryColor),
+            label: 'Recipes',
+          ),
+          NavigationDestination(
+            icon: const Icon(Icons.settings_outlined),
+            selectedIcon: const Icon(Icons.settings, color: AppTheme.primaryColor),
+            label: 'Beans',
+          ),
         ],
       ),
     );

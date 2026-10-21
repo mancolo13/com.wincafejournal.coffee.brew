@@ -1,10 +1,10 @@
 import 'package:flutter/material.dart';
 
 class AppTheme {
-  static const Color primaryColor = Color(0xFFD97706);
-  static const Color secondaryColor = Color(0xFFF59E0B);
-  static const Color backgroundColor = Color(0xFF251307);
-  static const Color surfaceColor = Color(0xFF3E200C);
+  static const Color primaryColor = Color(0xFFB45309);
+  static const Color secondaryColor = Color(0xFFFDE68A);
+  static const Color backgroundColor = Color(0xFF1C130E);
+  static const Color surfaceColor = Color(0xFF2E2018);
 
   static ThemeData get darkTheme => ThemeData(
     useMaterial3: true,
